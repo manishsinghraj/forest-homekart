@@ -1,0 +1,58 @@
+@use "../../utils";
+
+.banner {
+    background-color: utils.$banner_bg_color;
+    padding: 10px;
+    display: flex;
+
+    .all__image {
+        width: 500px;
+        height: 450px;
+        border-radius: 10px;
+        border: 2px solid utils.$color_white;
+    }
+
+    &_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__content {
+        h1 {
+            font-size: 50px;
+            font-weight: 900;
+            color: utils.$color_white;
+        }
+    }
+
+    &__subtitle {
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    p {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    &__shop__btn {
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        padding: 5px 15px;
+        color: utils.$color_white;
+        background-color: utils.$color_black;
+        font-size: 20px;
+        margin-top: 15px;
+        box-shadow: 2px 3px 4px #9d9d9d;
+
+
+        &:active {
+            box-shadow: none;
+            transform: scale(0.9, 0.9);
+        }
+    }
+}

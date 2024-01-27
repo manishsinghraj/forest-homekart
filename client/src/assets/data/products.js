@@ -1,26 +1,26 @@
-import chair01 from "../images/chair/chair01";
-import chair02 from "../images/chair/chair02";
-import chair03 from "../images/chair/chair03";
-import chair04 from "../images/chair/chair04";
-import chair05 from "../images/chair/chair05";
+import chair01 from "../images/chair/chair01.jpg";
+import chair02 from "../images/chair/chair02.jpg";
+import chair03 from "../images/chair/chair03.jpg";
+import chair04 from "../images/chair/chair04.jpg";
+import chair05 from "../images/chair/chair05.jpg";
 
-import bed01 from "../images/bed01";
-import bed02 from "../images/bed02";
-import bed03 from "../images/bed03";
-import bed04 from "../images/bed04";
-import bed05 from "../images/bed05";
+import bed01 from "../images/bed/bed01.jpg";
+import bed02 from "../images/bed/bed02.jpg";
+import bed03 from "../images/bed/bed03.jpg";
+import bed04 from "../images/bed/bed04.jpg";
+import bed05 from "../images/bed/bed05.jpg";
 
-import table01 from "../images/table01";
-import table02 from "../images/table02";
-import table03 from "../images/table03";
-import table04 from "../images/table04";
-import table05 from "../images/table05";
+import table01 from "../images/table/table01.jpg";
+import table02 from "../images/table/table02.jpg";
+import table03 from "../images/table/table03.jpg";
+import table04 from "../images/table/table04.jpg";
+import table05 from "../images/table/table05.jpg";
 
-import vase01 from "../images/vase01";
-import vase02 from "../images/vase02";
-import vase03 from "../images/vase03";
-import vase04 from "../images/vase04";
-import vase05 from "../images/vase05";
+import vase01 from "../images/vase/vase01.jpg";
+import vase02 from "../images/vase/vase02.jpg";
+import vase03 from "../images/vase/vase03.jpg";
+import vase04 from "../images/vase/vase04.jpg";
+import vase05 from "../images/vase/vase05.jpg";
 
 
 const products = [
@@ -40,6 +40,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -58,6 +61,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: true,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -76,6 +82,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -94,6 +103,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -112,6 +124,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -130,6 +145,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: true,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -148,6 +166,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -166,6 +187,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -184,6 +208,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -202,6 +229,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: true,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -220,6 +250,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -238,6 +271,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -256,6 +292,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -274,6 +313,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -292,6 +334,8 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: true,
+        bestSaleProduct: false,
         avgRating: 4.5,
     },
     {
@@ -310,6 +354,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -328,6 +375,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -346,6 +396,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -364,6 +417,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     },
     {
@@ -382,6 +438,9 @@ const products = [
                 text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
             },
         ],
+        trendingProduct: false,
+        bestSaleProduct: false,
+
         avgRating: 4.5,
     }
 
